@@ -8,9 +8,9 @@ import time
 class FeedFinder():
     def __init__(self):
         
-        self.headers = {'User-Agent' : 'AD'}
-        self.links = []
-        self.hostname = None
+        headers = {'User-Agent' : 'AD'}
+        links = []
+        hostname = None
         
     def make_request(self, link):
         
